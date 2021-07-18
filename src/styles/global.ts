@@ -5,6 +5,7 @@ export const GlobalStyle = createGlobalStyle`
     --background: #f0f2f5
     --red: #e52e4d;
     --blue: #5429cc;
+    --green: #33cc95;
 
     --blue-light: #6933ff;
 
@@ -18,7 +19,7 @@ export const GlobalStyle = createGlobalStyle`
   * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box
+    box-sizing: border-box;
   }
 
   //Font-size por padrão é de 16px
@@ -32,7 +33,7 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   body {
-    background: var(---background);
+    background: var(--background);
     -webkit-font-smoothing: antialiased;
   }
 
